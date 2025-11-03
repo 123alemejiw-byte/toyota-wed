@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toyota - Carros Deportivos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #0d1117, #1a2233);
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #e41b17;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .info {
+      padding: 15px;
+    }
+
+    .info h2 {
+      color: #ff4747;
+      margin-top: 0;
+    }
+
+    .info p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toyota - Carros Deportivos</h1>
+    <p>Explora algunos de los deportivos más icónicos de Toyota.</p>
+  </header>
+
+  <main>
+    <section class="grid">
+      <!-- Supra -->
+      <div class="card">
+        <img src="img/supra.jpg" alt="Toyota Supra">
+        <div class="info">
+          <h2>Toyota Supra</h2>
+          <p><strong>Año de creación:</strong> 1978</p>
+          <p><strong>Motor:</strong> 3.0 L Turbo (B58 I6)</p>
+          <p>El Supra es el deportivo más legendario de Toyota, famoso por su potencia y su aparición en películas como *Rápido y Furioso*.</p>
+        </div>
+      </div>
+
+      <!-- GR86 -->
+      <div class="card">
+        <img src="img/gr86.jpeg" alt="Toyota GR86">
+        <div class="info">
+          <h2>Toyota GR86</h2>
+          <p><strong>Año de creación:</strong> 2021</p>
+          <p><strong>Motor:</strong> 2.4 L bóxer</p>
+          <p>El GR86 ofrece una experiencia de manejo pura, con tracción trasera y excelente equilibrio para los amantes de la velocidad.</p>
+        </div>
+      </div>
+
+      <!-- MR2 -->
+      <div class="card">
+        <img src="img/mr2.jpg" alt="Toyota MR2">
+        <div class="info">
+          <h2>Toyota MR2</h2>
+          <p><strong>Año de creación:</strong> 1984</p>
+          <p><strong>Motor:</strong> 1.6 - 2.0 L (según generación)</p>
+          <p>El MR2 fue un pequeño pero ágil deportivo con motor central, famoso por su gran maniobrabilidad y estilo clásico.</p>
+        </div>
+      </div>
+
+      <!-- Celica GT-Four -->
+      <div class="card">
+        <img src="img/Celica.jpg" alt="Toyota Celica GT-Four">
+        <div class="info">
+          <h2>Toyota Celica GT-Four</h2>
+          <p><strong>Año de creación:</strong> 1986</p>
+          <p><strong>Motor:</strong> 2.0 L Turbo (3S-GTE)</p>
+          <p>El Celica GT-Four dominó los rallies de los 90 con su tracción integral y potente motor turboalimentado.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 - Página creada por ChatGPT | Toyota Deportivos
+  </footer>
+</body>
+</html>
